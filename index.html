@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
+    </style>
+    <title>Challenge: Encriptador de texto - AngelB6</title>
+  </head>
+
+  <body>
+    <main>
+      <section class="interaction">
+        <div class="title">
+          <img src="./img//Logo.png" />
+          <h1>Encriptador De Texto - Angel</h1>
+        </div>
+
+        <div class="input">
+          <textarea
+            placeholder="Ingrese el texto aqui..."
+            id="textoInput"
+          ></textarea>
+        </div>
+
+        <div class="buttons">
+          <div class="container-buttons">
+            <div class="warning-text">
+              <img id="vector" src="./img/Vector.png" />
+              <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="action-buttons">
+              <button id="buttonEncriptar">Encriptar</button>
+              <button id="buttonDesencriptar">Desencriptar</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="visualization">
+        <div class="showData">
+          <div id="textoResultado"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>© copyright 2024 - Angel Barrera - AngelB6</p>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
